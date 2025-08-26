@@ -15,8 +15,7 @@
   "type": "commonjs",
   "main": "index.html",
   "scripts": {
-    "dev": "serve",
-    "start": "touch readme.md"
+    "dev": "serve"
   },
   "devDependencies": {
     "serve": "^14.2.4"
