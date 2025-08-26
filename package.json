@@ -1,0 +1,24 @@
+{
+  "name": "front-course",
+  "version": "1.0.0",
+  "description": "a training project",
+  "homepage": "https://github.com/alisafariir/html-css-js-course#readme",
+  "bugs": {
+    "url": "https://github.com/alisafariir/html-css-js-course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisafariir/html-css-js-course.git"
+  },
+  "license": "ISC",
+  "author": "Alishon",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve",
+    "start": "touch readme.md"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

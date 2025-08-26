@@ -48,6 +48,7 @@ p {
 .app-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 1rem auto;
   padding: 0.75rem 1rem;
 
@@ -56,22 +57,24 @@ p {
   box-shadow: 0px 6px 17px -5px rgb(0 0 0 / 17%);
 }
 
-.app-header-start-side ul li a {
-  cursor: pointer;
-}
-
-.app-header-start-side ul li a:hover {
-  color: #002aff;
-}
-
-.app-header-start-side ul,
+.app-header-start-side,
 .app-header-end-side {
   display: flex;
   gap: 0.875rem;
   height: 100%;
   align-items: center;
 }
+#header-menu {
+  display: flex;
+  gap: 1rem;
+}
+#header-menu li a {
+  cursor: pointer;
+}
 
+#header-menu li a:hover {
+  color: #002aff;
+}
 .app-header-end-side button {
   padding: 0.5rem 0.75rem;
   background-color: #e2e2e2;

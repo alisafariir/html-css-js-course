@@ -1,0 +1,23 @@
+/*
+For Mobiles
+*/
+@media (max-width: 768px) {
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #menu-bt {
+    display: flex;
+  }
+  #header-menu {
+    display: none;
+  }
+}
+
+/*
+For Desktops
+*/
+@media (min-width: 1024px) {
+  #menu-bt {
+    display: none;
+  }
+}

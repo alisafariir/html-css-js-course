@@ -1,0 +1,49 @@
+.texture-backround {
+  background-image: url(../assets/images/texture/paper.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  background-color: #000;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+}
+.parent {
+  width: 33vw;
+  height: 33vw;
+  background-color: #f00;
+  position: relative;
+}
+.child {
+  width: 5vw;
+  height: 5vw;
+  position: absolute;
+}
+.child-1 {
+  background-color: green;
+  z-index: 1;
+}
+.child-2 {
+  background-color: yellow;
+  z-index: 2;
+}
+.child-3 {
+  background-color: blueviolet;
+  z-index: 3;
+}
+.support-btn {
+  background-color: green;
+  color: #fff;
+  position: fixed;
+  inset-inline-end: 50px;
+  inset-block-end: 50px;
+}

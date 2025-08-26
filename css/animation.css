@@ -1,0 +1,17 @@
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 999rem;
+  background-color: blue;
+  animation: slide 500ms ease-in-out infinite;
+}
+@keyframes slide {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(100px);
+    background-color: red;
+    opacity: 0.5;
+  }
+}
