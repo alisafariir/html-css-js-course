@@ -6,6 +6,7 @@
   width: 100vw;
   height: 100vh;
 }
+
 .header {
   background-color: #000;
   height: 48px;
@@ -17,29 +18,29 @@
   top: 0;
   z-index: 90;
 }
+
 .parent {
   width: 33vw;
   height: 33vw;
   background-color: #f00;
   position: relative;
 }
+
 .child {
   width: 5vw;
   height: 5vw;
-  position: absolute;
+  background-color: #000;
 }
-.child-1 {
+
+.child-sq {
+  background-color: #f00;
+}
+
+.child-circle {
   background-color: green;
-  z-index: 1;
+  border-radius: 999rem;
 }
-.child-2 {
-  background-color: yellow;
-  z-index: 2;
-}
-.child-3 {
-  background-color: blueviolet;
-  z-index: 3;
-}
+
 .support-btn {
   background-color: green;
   color: #fff;
